@@ -1,0 +1,44 @@
+{
+  "name": "vite-admin",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "lint": "eslint src --fix --ext .ts,.tsx "
+  },
+  "dependencies": {
+    "@vueuse/core": "^6.0.0",
+    "axios": "^0.21.1",
+    "crypto-js": "^4.1.1",
+    "element-plus": "1.0.2-beta.71",
+    "html-to-image": "^1.7.0",
+    "mockjs": "^1.1.0",
+    "moment": "^2.29.1",
+    "normalize.css": "^8.0.1",
+    "number-precision": "^1.5.1",
+    "pinia": "^2.0.0-rc.6",
+    "vue": "^3.2.2",
+    "vue-i18n": "^9.1.7",
+    "vue-router": "^4.0.11"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.0.2",
+    "@types/node": "^16.7.1",
+    "@typescript-eslint/eslint-plugin": "^4.29.2",
+    "@typescript-eslint/parser": "^4.29.2",
+    "@vitejs/plugin-vue": "^1.4.0",
+    "@vue/compiler-sfc": "^3.2.4",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.1",
+    "eslint-plugin-vue": "^7.16.0",
+    "prettier": "^2.3.2",
+    "sass": "^1.38.0",
+    "typescript": "^4.3.5",
+    "vite": "2.5.0",
+    "vite-plugin-mock": "2.9.5",
+    "vue-tsc": "^0.3.0"
+  }
+}
